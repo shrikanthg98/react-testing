@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About'
 import { Routes, Route, Link } from "react-router-dom";
+import "antd/dist/antd.css";
 
 function App() {
   return (

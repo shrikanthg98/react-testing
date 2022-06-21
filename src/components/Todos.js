@@ -2,7 +2,6 @@ import React from "react";
 import { Input, Button } from 'antd';
 import "../App.css"
 import { PlusOutlined } from "@ant-design/icons";
-import "antd/dist/antd.css";
 
 const Todos = () => {
   return (<>
