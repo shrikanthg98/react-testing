@@ -7,8 +7,8 @@ function App() {
   return (
     <div className='mother'>
       <div className='header-parent'>
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
+        <h3><Link to="/">Home</Link></h3>
+        <h3><Link to="/About">About</Link></h3>
       </div>
       <Routes>
         <Route path='/' exact element={<Home />} />

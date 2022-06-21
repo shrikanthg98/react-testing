@@ -1,10 +1,12 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import { UserContext } from "../UserContext";
+import Todos from "./Todos";
 
 const Home = () => {
   const msg = useContext(UserContext);
-  return(<>
-  <h1>Home {msg}</h1>
+  return (<>
+    <h1>Todos</h1>
+    <Todos />
   </>);
 }
 
