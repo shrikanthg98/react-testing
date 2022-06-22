@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
-import { UserContext } from "../UserContext";
+import { ThemeContext } from "../MyContext";
 import Todos from "./Todos";
+import '../App.css';
 
 const Home = () => {
-  // const msg = useContext(UserContext);
-  return (<>
+  const { theme } = useContext(ThemeContext);
+  return (<div id={theme}>
     <h1>Todos</h1>
     <Todos />
-  </>);
+  </div>);
 }
 
 export default Home;
