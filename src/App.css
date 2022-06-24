@@ -9,20 +9,35 @@
   font-size: 30px;
 }
 
-.main{
+.main {
   height: 100vh;
   padding-left: 7%;
 }
 
-#light{
+#light {
   background-color: #F9F9F9;
 }
 
-#dark{
+#dark {
   background-color: #171010;
+}
+
+.smiley {
+  font-size: 30px;
+}
+
+.signup-card {
+  /* display: flex; */
+  width: 40%;
+  margin: 5% auto;
+  /* box-shadow: #1966b3 0px 50px 100px -20px, #ffffffb9 0px 30px 60px -30px; */
+  box-shadow: #0000008f 0px 22px 70px 4px;
+}
+
+#dark :is(h1, .smiley, div) {
   color: #ffffff;
 }
 
-.smiley{
-  font-size: 30px;
+#dark .signup-card {
+  box-shadow: #e9ecef59 0px 22px 70px 4px;
 }

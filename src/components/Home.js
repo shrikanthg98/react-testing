@@ -5,8 +5,8 @@ import '../App.css';
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
-  return (<div id={theme}>
-    <h1>Todos</h1>
+  return (<div>
+    <h1>Heading</h1>
     <Todos />
   </div>);
 }
